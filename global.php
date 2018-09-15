@@ -31,7 +31,7 @@ date_default_timezone_set('Europe/Berlin');
 *                  *
 ********************/
 //depending on server
-const DATABASE_PATH_RAW = "/var/www/EggsChange/EggsChange.db";
+const DATABASE_PATH_RAW = "/var/www/EggsChange-scripts/EggsChange.db";
 const DATABASE_PATH = "sqlite:" . DATABASE_PATH_RAW;
 const ABSOLUTE_DATABASE_PATH = DATABASE_PATH; //handle all absolut for simplicity
 
