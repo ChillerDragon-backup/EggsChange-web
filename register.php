@@ -16,7 +16,7 @@ function print_html_main($fail_reason)
 			<script type="text/javascript">
 					var onloadCallback = function() 
 					{
-						grecaptcha.render('html_element', {'sitekey' : '6LdsUT0UAAAAAP48pHl1tu1Lm4zZzLjKb1EQ-gus'});
+						grecaptcha.render('html_element', {'sitekey' : '6Lehb3AUAAAAAA9qX_Jb6B5bhZP4MUuyYORvnhOa-gus'});
 					};
 			</script>
 	<?php
@@ -33,7 +33,7 @@ function print_html_main($fail_reason)
                             <input id=\"invitor\" type=\"text\" name=\"invitor\" placeholder=\"Who told you about it? (Username)\"></br>
 							</br>
 							<div id=\"recaptcha\">
-								<div class=\"g-recaptcha\" data-sitekey=\"6LdsUT0UAAAAAP48pHl1tu1Lm4zZzLjKb1EQ-gus\"></div>
+								<div class=\"g-recaptcha\" data-sitekey=\"6Lehb3AUAAAAAA9qX_Jb6B5bhZP4MUuyYORvnhOa-gus\"></div>
 							</div>
 							<input type=\"submit\" value=\"Register\" >
 					</form>
@@ -56,7 +56,7 @@ function print_html_main($fail_reason)
 							<input id=\"repeate_password\" type=\"password\" name=\"repeate_password\" placeholder=\"repeate password\"></br>
 							</br>
 							<div id=\"recaptcha\">
-								<div class=\"g-recaptcha\" data-sitekey=\"6LdsUT0UAAAAAP48pHl1tu1Lm4zZzLjKb1EQ-gus\"></div>
+								<div class=\"g-recaptcha\" data-sitekey=\"6Lehb3AUAAAAAA9qX_Jb6B5bhZP4MUuyYORvnhOa-gus\"></div>
 							</div>
 							<input type=\"submit\" value=\"Register\" >
 					</form>
